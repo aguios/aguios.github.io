@@ -1,0 +1,49 @@
+#casais{
+    margin: 30px 0;
+}
+
+.casal{
+    max-width: 400px;
+}
+
+.casal-info{
+    cursor: pointer;
+    background: none;
+    border: 0;    
+	transition: .3s;	
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+}
+
+
+.casal-info img{
+    width: 130px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.casal-info:hover{
+    -webkit-filter: none;	
+	filter: none;	
+}
+
+.card-header {
+    padding: 0;
+}
+
+.nome-do-casal{
+    padding-top: 1em 0;
+}
+
+.card{
+    border-color: transparent;
+}
+
+.casal-info .media-body{
+    text-align: center;
+}
+
+.accordion{
+    width: 100%;
+}
